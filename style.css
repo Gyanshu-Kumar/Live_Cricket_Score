@@ -1,0 +1,102 @@
+body {
+    min-width: 300px;
+}
+
+#matches {
+    list-style: none;
+    padding: 0;
+}
+
+#matches li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.match-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.team-scores {
+    display: flex;
+}
+
+.team-score {
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+    background-color: #98E4FF;
+    
+}
+
+.team-score:first-child {
+    border-right: 1px solid #ccc;
+}
+
+.team-score:last-child {
+    border-left: 1px solid #ccc;
+}
+
+.team1-background {
+    background-color: #ffc107; /* Yellow */
+    color: #000000; /* Black */
+}
+
+.team2-background {
+    background-color: #4caf50; /* Green */
+    color: #ffffff; /* White */
+}
+
+.status-live {
+    background-color: #2196f3; /* Blue */
+    color: #ffffff; /* White */
+}
+
+.status-opt {
+    background-color: #ff9800; /* Orange */
+    color: #ffffff; /* White */
+}
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .pridi-extralight {
+    font-family: "Pridi", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .pridi-light {
+    font-family: "Pridi", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .pridi-regular {
+    font-family: "Pridi", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pridi-medium {
+    font-family: "Pridi", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .pridi-semibold {
+    font-family: "Pridi", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .pridi-bold {
+    font-family: "Pridi", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+    
