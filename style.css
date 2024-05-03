@@ -1,102 +1,110 @@
 body {
-    min-width: 300px;
+  min-width: 300px;
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+  font-family: Arial, sans-serif; /* Default font */
 }
 
 #matches {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  
+  color: #ffffff; /* White */
 }
 
 #matches li {
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #f9f9f9;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+  font-weight: bold;
 }
 
 .match-name {
-    font-weight: bold;
-    margin-bottom: 5px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000000; /* Black */
 }
 
 .team-scores {
-    display: flex;
+  display: flex;
+  justify-content: center; /* Center team scores */
 }
 
 .team-score {
-    flex: 1;
-    padding: 5px;
-    text-align: center;
-    background-color: #98E4FF;
-    
+  flex: 1;
+  padding: 5px;
+  color: #000000; /* Black */
+  text-align: center;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  border-radius: 7px;
+  margin-right: 10px; /* Add margin between team scores */
 }
 
 .team-score:first-child {
-    border-right: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
 
 .team-score:last-child {
-    border-left: 1px solid #ccc;
+  border-left: 1px solid #ccc;
 }
 
 .team1-background {
-    background-color: #ffc107; /* Yellow */
-    color: #000000; /* Black */
+  background-color: #ffc107; /* Yellow */
+  color: #000000; /* Black */
 }
 
 .team2-background {
-    background-color: #4caf50; /* Green */
-    color: #ffffff; /* White */
+  background-color: #4caf50; /* Green */
+  color: #ffffff; /* White */
 }
 
 .status-live {
-    background-color: #2196f3; /* Blue */
-    color: #ffffff; /* White */
+  background-color: #2196f3; /* Blue */
+  color: #ffffff; /* White */
 }
 
 .status-opt {
-    background-color: #ff9800; /* Orange */
-    color: #ffffff; /* White */
+  background-color: #ff9800; /* Orange */
+  color: #ffffff; /* White */
 }
+
+/* Font styles */
 .bree-serif-regular {
-    font-family: "Bree Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .pridi-extralight {
-    font-family: "Pridi", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .pridi-light {
-    font-family: "Pridi", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .pridi-regular {
-    font-family: "Pridi", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .pridi-medium {
-    font-family: "Pridi", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .pridi-semibold {
-    font-family: "Pridi", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .pridi-bold {
-    font-family: "Pridi", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-    
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+}
+
+.pridi-extralight {
+  font-family: "Pridi", serif;
+  font-weight: 200;
+}
+
+.pridi-light {
+  font-family: "Pridi", serif;
+  font-weight: 300;
+}
+
+.pridi-regular {
+  font-family: "Pridi", serif;
+  font-weight: 400;
+}
+
+.pridi-medium {
+  font-family: "Pridi", serif;
+  font-weight: 500;
+}
+
+.pridi-semibold {
+  font-family: "Pridi", serif;
+  font-weight: 600;
+}
+
+.pridi-bold {
+  font-family: "Pridi", serif;
+  font-weight: 700;
+}
